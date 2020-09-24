@@ -4,7 +4,7 @@
 #
 Name     : amtk
 Version  : 5.2.0
-Release  : 7
+Release  : 8
 URL      : https://download.gnome.org/sources/amtk/5.2/amtk-5.2.0.tar.xz
 Source0  : https://download.gnome.org/sources/amtk/5.2/amtk-5.2.0.tar.xz
 Summary  : Actions, Menus and Toolbars Kit
