@@ -72,5 +72,6 @@ libamtk-5.so.0:amtk_shortcuts_section_new
 libamtk-5.so.0:amtk_shortcuts_window_new
 libamtk-5.so.0:amtk_utils_bind_g_action_to_gtk_action
 libamtk-5.so.0:amtk_utils_create_gtk_action
+libamtk-5.so.0:amtk_utils_get_shrinkable_menubar
 libamtk-5.so.0:amtk_utils_recent_chooser_menu_get_item_uri
 libamtk-5.so.0:amtk_utils_remove_mnemonic
