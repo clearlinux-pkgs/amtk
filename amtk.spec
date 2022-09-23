@@ -4,7 +4,7 @@
 #
 Name     : amtk
 Version  : 5.5.1
-Release  : 14
+Release  : 15
 URL      : https://download.gnome.org/sources/amtk/5.5/amtk-5.5.1.tar.xz
 Source0  : https://download.gnome.org/sources/amtk/5.5/amtk-5.5.1.tar.xz
 Summary  : No detailed summary available
