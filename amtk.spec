@@ -4,7 +4,7 @@
 #
 Name     : amtk
 Version  : 5.5.1
-Release  : 15
+Release  : 16
 URL      : https://download.gnome.org/sources/amtk/5.5/amtk-5.5.1.tar.xz
 Source0  : https://download.gnome.org/sources/amtk/5.5/amtk-5.5.1.tar.xz
 Summary  : No detailed summary available
@@ -85,7 +85,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1655136456
+export SOURCE_DATE_EPOCH=1664139281
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -106,7 +106,7 @@ meson test -C builddir --print-errorlogs
 
 %install
 mkdir -p %{buildroot}/usr/share/package-licenses/amtk
-cp %{_builddir}/amtk-5.5.1/LICENSES/LGPL-3.0-or-later.txt %{buildroot}/usr/share/package-licenses/amtk/757b86330df80f81143d5916b3e92b4bcb1b1890
+cp %{_builddir}/amtk-%{version}/LICENSES/LGPL-3.0-or-later.txt %{buildroot}/usr/share/package-licenses/amtk/757b86330df80f81143d5916b3e92b4bcb1b1890 || :
 DESTDIR=%{buildroot} ninja -C builddir install
 %find_lang amtk-5
 
