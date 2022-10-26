@@ -30,6 +30,7 @@ libamtk-5.so.0:amtk_action_map_add_action_entries_check_dups
 libamtk-5.so.0:amtk_application_window_connect_menu_to_statusbar
 libamtk-5.so.0:amtk_application_window_connect_recent_chooser_menu_to_statusbar
 libamtk-5.so.0:amtk_application_window_create_open_recent_menu
+libamtk-5.so.0:amtk_application_window_create_open_recent_menu_base
 libamtk-5.so.0:amtk_application_window_create_open_recent_menu_item
 libamtk-5.so.0:amtk_application_window_get_application_window
 libamtk-5.so.0:amtk_application_window_get_from_gtk_application_window
