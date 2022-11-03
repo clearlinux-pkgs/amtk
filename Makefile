@@ -1,5 +1,5 @@
 PKG_NAME := amtk
-URL = https://download.gnome.org/sources/amtk/5.5/amtk-5.5.2.tar.xz
+URL = https://download.gnome.org/sources/amtk/5.6/amtk-5.6.0.tar.xz
 ARCHIVES = 
 
 include ../common/Makefile.common
